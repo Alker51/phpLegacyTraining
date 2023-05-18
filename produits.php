@@ -16,7 +16,7 @@ class Produits {
         $this->nom = $nom;
     }
 
-    public static function connectDB() : PDO
+    public static function connectDB(): PDO
     {
         if(is_null(self::$dbh))
         {
