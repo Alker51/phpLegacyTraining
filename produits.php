@@ -27,6 +27,7 @@ class Produits {
             }
             catch(PDOException $e){
                 echo "Erreur : " . $e->getMessage();
+                die();
             }
         }
 
